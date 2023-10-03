@@ -38,7 +38,6 @@ namespace Practica1Burciaga
                         Console.WriteLine("Opcion no valida");
                         break;
                 }
-                Console.ReadKey();
 
             }
         }
@@ -55,7 +54,6 @@ namespace Practica1Burciaga
             {
                 Console.WriteLine("Cadena no es valida");
             }
-            Console.ReadKey();
         }
 
         static bool ValidarCadena(string cadena)
